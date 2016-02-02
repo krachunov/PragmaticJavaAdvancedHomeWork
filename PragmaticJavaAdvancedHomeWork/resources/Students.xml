@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<education duration="3 months">
+    <people>
+        <teacher name="Mr Teacher">
+            <discipline>Java for 1st graders</discipline>
+        </teacher>
+        <students>
+            <student name="John" age="7" group="1a" sex="male" mark="5.3"/>
+            <student name="Anny" age="7" group="1a" sex="female" mark="5.6"/>
+        </students>
+    </people>
+</education>

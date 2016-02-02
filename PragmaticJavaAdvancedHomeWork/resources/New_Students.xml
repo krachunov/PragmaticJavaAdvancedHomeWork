@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><education duration="3 months">
+    <people>
+        <teacher name="Mr Teacher">
+            <discipline>Java for 1st graders</discipline>
+        </teacher>
+        <students>
+            <student age="7" group="1a" mark="5.3" name="John" sex="male"/>
+            <student age="7" group="1a" mark="5.6" name="Anny" sex="female"/>
+        </students>
+    </people>
+<exams><exam teacher="1"><students><id>3</id><id>1</id></students></exam><exam teacher="2"><students><id>2</id><id>5</id></students></exam><exam teacher="3"><students><id>1</id></students></exam></exams></education>

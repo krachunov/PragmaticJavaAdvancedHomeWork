@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 1, 2016 4:34:26 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="edu.pragmatic.homework.sql.hibernate.Employees"
+		table="EMPLOYEES">
+		<id name="empNo" type="int">
+			<column name="emp_no" />
+			<generator class="assigned" />
+		</id>
+		<property name="birthDate" type="java.lang.String">
+			<column name="birth_date" />
+		</property>
+		<property name="firstName" type="java.lang.String">
+			<column name="first_name" />
+		</property>
+		<property name="lastLame" type="java.lang.String">
+			<column name="last_name" />
+		</property>
+		<property name="gender" type="java.lang.String">
+			<column name="GENDER" />
+		</property>
+		<property name="hireDate" type="java.lang.String">
+			<column name="hire_date" />
+		</property>
+	</class>
+</hibernate-mapping>
